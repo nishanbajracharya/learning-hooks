@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
-import ROUTES from './constants/routes';
+import routes from './constants/routes';
 import UseState from './views/useState';
 import UseEffect from './views/useEffect';
 
@@ -12,7 +12,7 @@ function Router() {
         <div className="w-1/5 bg-gray-200 border-solid border-r border-gray-300 h-screen">
           <nav>
             <ul>
-              {ROUTES.links.map((route, index) => (
+              {routes.links.map((route, index) => (
                 <li key={index}>
                   <Link to={route.to}>{route.label}</Link>
                 </li>
@@ -22,13 +22,13 @@ function Router() {
         </div>
         <div className="w-4/5">
           <Switch>
-            <Route path={ROUTES.paths.USE_STATE}>
+            <Route path={routes.paths.USE_STATE}>
               <UseState />
             </Route>
-            <Route path={ROUTES.paths.USE_EFFECT}>
+            <Route path={routes.paths.USE_EFFECT}>
               <UseEffect />
             </Route>
-            <Route path={ROUTES.paths.HOME}>
+            <Route path={routes.paths.HOME}>
               <div>Home</div>
             </Route>
           </Switch>

@@ -1,16 +1,18 @@
 import React from 'react';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { tomorrowNight } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 import content from '../constants/content';
 
-console.log(content);
-
 function Viewer(props) {
-  return <div>
+  return (
     <div>
-      {content[props.path]}
+      <SyntaxHighlighter language="javascript" style={tomorrowNight}>
+        {content[props.path]}
+      </SyntaxHighlighter>
+      {props.children}
     </div>
-    {props.children}
-  </div>;
+  );
 }
 
 export default Viewer;

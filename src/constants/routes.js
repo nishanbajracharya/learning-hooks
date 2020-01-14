@@ -8,5 +8,5 @@ export default {
     HOME: '/',
     USE_STATE: '/use-state',
     USE_EFFECT: '/use-effect',
-  }
+  },
 };
