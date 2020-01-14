@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import Router from './Router';
 import * as serviceWorker from './serviceWorker';
 
+import './styles/tailwind.css';
+
 ReactDOM.render(<Router />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
