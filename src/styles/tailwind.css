@@ -11387,6 +11387,21 @@ video {
   z-index: auto;
 }
 
+.syntax-highlighter {
+  margin: 0 !important;
+}
+
+.btn {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-right: 0.5rem;
+  background-color: #4299e1;
+  border-radius: 0.25rem;
+  color: #f7fafc;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

@@ -1,14 +1,14 @@
 import React from 'react';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { atomOneLight } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { tomorrow } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 import content from '../constants/content';
 
 function Viewer(props) {
   return (
     <div className="lg:clearfix">
-      <div className="lg:w-1/2 lg:float-left lg:h-screen">
-      <SyntaxHighlighter language="javascript" style={atomOneLight} className="h-full border-r">
+      <div className="lg:w-1/2 lg:float-left lg:h-screen border-r">
+      <SyntaxHighlighter language="jsx" style={tomorrow} className="syntax-highlighter h-full">
         {content[props.path]}
       </SyntaxHighlighter>
       </div>

@@ -14,7 +14,14 @@ function Router() {
             <ul>
               {routes.links.map((route, index) => (
                 <li key={index}>
-                  <NavLink to={route.to} className="block p-4 hover:bg-gray-300" activeClassName="bg-gray-400" exact>{route.label}</NavLink>
+                  <NavLink
+                    to={route.to}
+                    className="block p-4 hover:bg-gray-300 font-medium text-gray-700"
+                    activeClassName="bg-gray-400"
+                    exact
+                  >
+                    {route.label}
+                  </NavLink>
                 </li>
               ))}
             </ul>
