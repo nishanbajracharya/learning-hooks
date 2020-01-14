@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 import ROUTES from './constants/routes';
+import UseState from './views/useState';
+import UseEffect from './views/useEffect';
 
 function Router() {
   return (
@@ -21,10 +23,10 @@ function Router() {
         <div className="w-4/5">
           <Switch>
             <Route path={ROUTES.paths.USE_STATE}>
-              <div>useState</div>
+              <UseState />
             </Route>
             <Route path={ROUTES.paths.USE_EFFECT}>
-              <div>useEffect</div>
+              <UseEffect />
             </Route>
             <Route path={ROUTES.paths.HOME}>
               <div>Home</div>
