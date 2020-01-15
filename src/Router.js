@@ -7,7 +7,7 @@ import UseEffect from 'views/useEffect';
 
 function Router() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="flex bg-gray-100">
         <div className="w-1/6 border-r border-gray-300 h-screen">
           <nav>
