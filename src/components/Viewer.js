@@ -12,7 +12,7 @@ function Viewer(props) {
         {content[props.path]}
       </SyntaxHighlighter>
       </div>
-      <div className="lg:w-1/2 lg:float-left lg:h-screen bg-white">{props.children}</div>
+      <div className="lg:w-1/2 lg:float-left lg:h-screen bg-white overflow-auto">{props.children}</div>
     </div>
   );
 }
