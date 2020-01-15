@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/learning-hooks/static/css/main.3e2c6071.chunk.css",
-    "main.js": "/learning-hooks/static/js/main.9d9c79a9.chunk.js",
-    "main.js.map": "/learning-hooks/static/js/main.9d9c79a9.chunk.js.map",
+    "main.js": "/learning-hooks/static/js/main.792f952b.chunk.js",
+    "main.js.map": "/learning-hooks/static/js/main.792f952b.chunk.js.map",
     "runtime-main.js": "/learning-hooks/static/js/runtime-main.4032af9c.js",
     "runtime-main.js.map": "/learning-hooks/static/js/runtime-main.4032af9c.js.map",
-    "static/js/2.5e0e7527.chunk.js": "/learning-hooks/static/js/2.5e0e7527.chunk.js",
-    "static/js/2.5e0e7527.chunk.js.map": "/learning-hooks/static/js/2.5e0e7527.chunk.js.map",
+    "static/js/2.f31d6b8e.chunk.js": "/learning-hooks/static/js/2.f31d6b8e.chunk.js",
+    "static/js/2.f31d6b8e.chunk.js.map": "/learning-hooks/static/js/2.f31d6b8e.chunk.js.map",
     "index.html": "/learning-hooks/index.html",
-    "precache-manifest.e75fc1901e0546bef09f2468f0fbe3fa.js": "/learning-hooks/precache-manifest.e75fc1901e0546bef09f2468f0fbe3fa.js",
+    "precache-manifest.d4679b7b4af94cd3588c92fce147cf27.js": "/learning-hooks/precache-manifest.d4679b7b4af94cd3588c92fce147cf27.js",
     "service-worker.js": "/learning-hooks/service-worker.js",
     "static/css/main.3e2c6071.chunk.css.map": "/learning-hooks/static/css/main.3e2c6071.chunk.css.map",
-    "static/js/2.5e0e7527.chunk.js.LICENSE": "/learning-hooks/static/js/2.5e0e7527.chunk.js.LICENSE"
+    "static/js/2.f31d6b8e.chunk.js.LICENSE": "/learning-hooks/static/js/2.f31d6b8e.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.4032af9c.js",
-    "static/js/2.5e0e7527.chunk.js",
+    "static/js/2.f31d6b8e.chunk.js",
     "static/css/main.3e2c6071.chunk.css",
-    "static/js/main.9d9c79a9.chunk.js"
+    "static/js/main.792f952b.chunk.js"
   ]
 }
