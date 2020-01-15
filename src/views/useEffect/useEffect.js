@@ -35,17 +35,22 @@ function UseEffect() {
 
   return (
     <div className="p-4">
-      <ul>
-        {data.map((item, i) => (
-          <Person key={i} {...item} />
-        ))}
-      </ul>
+      {data && data.length > 0 && (
+        <ul className="border mb-4">
+          {data.map((item, i) => (
+            <Person key={i} {...item} />
+          ))}
+        </ul>
+      )}
       <div>
         <Button onClick={fetchPrevious}>Previous</Button>
-        Page: <strong><span className="mr-2">{page}</span></strong>
+        Page:
+        <strong>
+          <span className="mr-2 ml-1">{page}</span>
+        </strong>
         <Button onClick={fetchNext}>Next</Button>
+        {loading && <span>Loading...</span>}
       </div>
-      {loading && <div>Loading...</div>}
     </div>
   );
 }
