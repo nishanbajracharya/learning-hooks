@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/learning-hooks/static/css/main.3e2c6071.chunk.css",
-    "main.js": "/learning-hooks/static/js/main.1cb2ab06.chunk.js",
-    "main.js.map": "/learning-hooks/static/js/main.1cb2ab06.chunk.js.map",
+    "main.js": "/learning-hooks/static/js/main.f01ff168.chunk.js",
+    "main.js.map": "/learning-hooks/static/js/main.f01ff168.chunk.js.map",
     "runtime-main.js": "/learning-hooks/static/js/runtime-main.4032af9c.js",
     "runtime-main.js.map": "/learning-hooks/static/js/runtime-main.4032af9c.js.map",
     "static/js/2.f31d6b8e.chunk.js": "/learning-hooks/static/js/2.f31d6b8e.chunk.js",
     "static/js/2.f31d6b8e.chunk.js.map": "/learning-hooks/static/js/2.f31d6b8e.chunk.js.map",
     "index.html": "/learning-hooks/index.html",
-    "precache-manifest.01b6b064976603f9e9a9bfbed27fd943.js": "/learning-hooks/precache-manifest.01b6b064976603f9e9a9bfbed27fd943.js",
+    "precache-manifest.faa0440df6484992b96c6a60ca0d4c8b.js": "/learning-hooks/precache-manifest.faa0440df6484992b96c6a60ca0d4c8b.js",
     "service-worker.js": "/learning-hooks/service-worker.js",
     "static/css/main.3e2c6071.chunk.css.map": "/learning-hooks/static/css/main.3e2c6071.chunk.css.map",
     "static/js/2.f31d6b8e.chunk.js.LICENSE": "/learning-hooks/static/js/2.f31d6b8e.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4032af9c.js",
     "static/js/2.f31d6b8e.chunk.js",
     "static/css/main.3e2c6071.chunk.css",
-    "static/js/main.1cb2ab06.chunk.js"
+    "static/js/main.f01ff168.chunk.js"
   ]
 }
