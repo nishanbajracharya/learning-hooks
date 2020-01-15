@@ -1,8 +1,8 @@
 import React from 'react';
 
 import UseEffect from './useEffect';
-import routes from '../../constants/routes';
-import Viewer from '../../components/Viewer';
+import routes from 'constants/routes';
+import Viewer from 'components/Viewer';
 
 function UseEffectComponent() {
   return (

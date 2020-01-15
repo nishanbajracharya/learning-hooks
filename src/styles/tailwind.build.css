@@ -7,5 +7,9 @@
 }
 
 .btn {
-  @apply px-2 py-1 mr-2 bg-blue-500 rounded text-gray-100;
+  @apply px-4 py-2 mr-2 bg-blue-500 rounded text-gray-100;
+}
+
+.btn:hover {
+  @apply bg-blue-600;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route, NavLink } from 'react-router-dom';
 
-import routes from './constants/routes';
-import UseState from './views/useState';
-import UseEffect from './views/useEffect';
+import routes from 'constants/routes';
+import UseState from 'views/useState';
+import UseEffect from 'views/useEffect';
 
 function Router() {
   return (

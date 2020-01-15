@@ -9,8 +9,9 @@ function UseEffect() {
 export default UseEffect;
 
 `,
-  '/use-state': `
-import React, { useState } from 'react';
+  '/use-state': `import React, { useState } from 'react';
+
+import Button from 'components/Button';
 
 function UseState() {
   const [counter, setCounter] = useState(0);
@@ -21,21 +22,14 @@ function UseState() {
         Counter: <strong>{counter}</strong>
       </p>
       <div>
-        <button className="btn" onClick={() => setCounter(counter - 1)}>
-          Decrease
-        </button>
-        <button className="btn" onClick={() => setCounter(counter + 1)}>
-          Increase
-        </button>
-        <button className="btn" onClick={() => setCounter(0)}>
-          Reset
-        </button>
+        <Button onClick={() => setCounter(counter - 1)}>Decrease</Button>
+        <Button onClick={() => setCounter(counter + 1)}>Increase</Button>
+        <Button onClick={() => setCounter(0)}>Reset</Button>
       </div>
     </div>
   );
 }
 
 export default UseState;
-
 `,
 };
